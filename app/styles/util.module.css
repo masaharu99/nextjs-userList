@@ -1,0 +1,35 @@
+.user_card_list {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.user_card {
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.user_icon {
+  width: 70%;
+  height: 70%;
+  border-radius: 9999px;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.text_min {
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
